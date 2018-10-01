@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		57A580F4A3F04D9CFBA77F86 /* Pods_pixel_cityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D04A00578D4FB44D2AA8A1 /* Pods_pixel_cityUITests.framework */; };
+		580FC0B52162A6DE004EC984 /* DroppablePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580FC0B42162A6DE004EC984 /* DroppablePin.swift */; };
 		583A43432162894500285210 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583A43422162894500285210 /* AppDelegate.swift */; };
 		583A43452162894500285210 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583A43442162894500285210 /* MapVC.swift */; };
 		583A43482162894500285210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 583A43462162894500285210 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		476383A54BAE5150F434CD4A /* Pods_pixel_city.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pixel_city.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		580FC0B42162A6DE004EC984 /* DroppablePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroppablePin.swift; sourceTree = "<group>"; };
 		583A433F2162894500285210 /* pixel-city.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pixel-city.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		583A43422162894500285210 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		583A43442162894500285210 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 		583A43712162896F00285210 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				580FC0B42162A6DE004EC984 /* DroppablePin.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -426,6 +429,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				583A43452162894500285210 /* MapVC.swift in Sources */,
+				580FC0B52162A6DE004EC984 /* DroppablePin.swift in Sources */,
 				583A43432162894500285210 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
